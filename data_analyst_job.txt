@@ -1,0 +1,16 @@
+Job Role: Data Analyst
+
+Required:
+python
+sql
+excel
+statistics
+data visualization
+pandas
+numpy
+
+Responsibilities:
+analyze datasets
+generate reports and insights
+create data visualizations
+support business decision making

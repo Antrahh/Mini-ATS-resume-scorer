@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mini ATS Resume Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">Mini ATS Resume Analyzer</div>
+</header>
+
+<section class="hero">
+<h1>Advance Resume Screening System</h1>
+<p>Upload your resume and check ATS compatibility instantly</p>
+</section>
+
+<div class="container">
+
+<div class="drop-area">
+<p>Upload Resume</p>
+<input type="file" id="resumeFile">
+<p id="fileName"></p>
+</div>
+
+<div class="input-group">
+
+<label>Select Job Role</label>
+
+<select>
+<option>Software Developer</option>
+<option>Web Developer</option>
+<option>Data Analyst</option>
+</select>
+
+</div>
+
+<button onclick="startScan()">Analyze Resume</button>
+
+<button class="info-btn" onclick="showInfo()">How Our System Works</button>
+
+<div class="scanning" id="scanBox">
+
+<div class="loader"></div>
+<p id="scanText">Scanning Resume...</p>
+
+</div>
+
+</div>
+
+<section class="how-system" id="systemInfo">
+
+<h2>How Our ATS System Works</h2>
+
+<div class="steps">
+
+<div class="step">
+<h3>1️⃣ Upload Resume</h3>
+<p>User uploads resume in PDF or DOC format.</p>
+</div>
+
+<div class="step">
+<h3>2️⃣ Job Role Selection</h3>
+<p>User selects the job role to compare with resume.</p>
+</div>
+
+<div class="step">
+<h3>3️⃣ Keyword Extraction</h3>
+<p>System extracts skills from resume.</p>
+</div>
+
+<div class="step">
+<h3>4️⃣ Skill Matching</h3>
+<p>Resume skills are compared with job description.</p>
+</div>
+
+<div class="step">
+<h3>5️⃣ ATS Score Generation</h3>
+<p>System generates ATS compatibility score.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+Mini ATS Resume Scorer | PBL Project
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+

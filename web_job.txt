@@ -1,0 +1,17 @@
+Job Role: Web Developer
+
+Required:
+html
+css
+javascript
+react
+nodejs
+git
+responsive design
+web development
+
+Responsibilities:
+develop responsive websites
+design user interfaces
+integrate backend APIs
+maintain web applications

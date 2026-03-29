@@ -1,0 +1,17 @@
+Job Role: Software Developer
+
+Required:
+c
+java
+python
+data structures
+algorithms
+git
+sql
+problem solving
+
+Responsibilities:
+develop software applications
+write efficient and clean code
+debug and maintain programs
+collaborate with development team
