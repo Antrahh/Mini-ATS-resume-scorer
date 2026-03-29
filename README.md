@@ -11,10 +11,10 @@ This project was developed as part of a **PBL Hackathon** and demonstrates a com
 
 | Member | Contribution |
 |--------|-------------|
-| **Antra** | File handling module, connecting all modules, PDF/DOCX text extraction, preprocessing, input/output integration |
+| **Antra** | File handling module, connecting all modules, PDF/DOCX text extraction, preprocessing, input/output integration,front |
 | **Member 2** | Keyword extraction module, text cleaning, parsing resumes to extract skills |
-| **Member 3** | String matching & scoring module, computing ATS match percentage, identifying missing skills |
-| **Member 4** | Frontend development (HTML/CSS/JS), interactive UI, animations, displaying results dynamically |
+| **Member 3** | String matching , identifying missing skills |
+| **Member 4** |  scoring module, computing ATS match percentage, |
 
 > Each module was developed independently and integrated through standardized inputs/outputs to ensure smooth pipeline execution.
 
